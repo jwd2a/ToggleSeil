@@ -13,7 +13,6 @@ noble.on('discover', function(peripheral) {
   var kbAddress = 'eb:ed:cd:cd:58:33';
 
   if (peripheral.address == kbAddress) {
-
     var kb = peripheral;
     var seil;
 
